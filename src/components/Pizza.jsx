@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
 // import React from 'react'
 
 
-function Pizza(name, ingredients, price, photoName) {
+function Pizza({name, ingredients, price, photoName}) {
+  // console.log({"pizza": pizza});
   return (
     <div>
       <h2>{name}</h2>
